@@ -2,7 +2,7 @@ module.exports = function solveSudoku(matrix) {
   // your solution
   var incomplete = true;
   var clone = matrix;
-  for (var err = 0; err < 10000; err++) {
+  for (var err = 0; err < 100000; err++) {
    if (incomplete) {
   	incomplete = false;	
     
